@@ -40,3 +40,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+algolia:
+  application_id: XPJI1EHRMX
+  index_name: data
+  search_only_api_key: d3d31f929b2821b1502454241dc121d8
+  files_to_exclude:
+    - _site/*
+    - assets/*
+  nodes_to_index: 'p,h1,h2,h3'
+  settings:
+    attributesToHighlight: ['title', 'headings', 'content']
+    attributesToSnippet: ['content:20']
+    snippetEllipsisText: '…'
+    removeStopWords: true
+    distinct: true
