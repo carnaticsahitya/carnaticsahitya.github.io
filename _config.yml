@@ -1,0 +1,33 @@
+# _config.yml
+theme: jekyll-theme-basically-basic
+title: Carnatic Music Insights
+description: A website dedicated to Carnatic music traditions and artists
+url: "https://carnatic.github.io"
+baseurl: ""
+
+# Site settings
+locale: en-US
+lang: en-US
+
+search: true
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Artists
+    url: /artists/
+  - title: Concerts
+    url: /concerts/
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
