@@ -8,6 +8,9 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll-theme-basically-basic"
 gem "minimal-mistakes-jekyll"
 gem "jekyll-algolia"
+gem "jekyll", "~> 4.0"
+gem "jekyll-sitemap"
+gem "jekyll-algolia"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
