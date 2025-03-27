@@ -1,4 +1,3 @@
-
 source "https://rubygems.org"
 
 # GitHub Pages gem must be first
@@ -10,7 +9,6 @@ gem "minimal-mistakes-jekyll"
 gem "jekyll-algolia"
 gem "jekyll", "~> 4.0"
 gem "jekyll-sitemap"
-gem "jekyll-algolia"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
@@ -22,4 +20,3 @@ end
 
 # Additional required gems
 gem "webrick"
-gem "jekyll"
