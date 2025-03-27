@@ -26,7 +26,12 @@ jobs:
       - name: Install Dependencies
         run: |
           gem install bundler
+          bundle update
           bundle install
+      
+      - name: Verify Theme
+        run: |
+          bundle show jekyll-theme-basically-basic
       
       - name: Algolia Indexing
         env:

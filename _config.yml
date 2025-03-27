@@ -40,6 +40,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+    - jekyll-algolia
+  - jekyll-remote-theme
 
 algolia:
   application_id: XPJI1EHRMX
