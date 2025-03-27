@@ -5,6 +5,8 @@ description: A website dedicated to Carnatic music traditions and artists
 url: "https://carnatic.github.io"
 baseurl: ""
 
+remote_theme: mmistakes/jekyll-theme-basically-basic
+
 # Site settings
 locale: en-US
 lang: en-US
