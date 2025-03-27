@@ -13,6 +13,13 @@ lang: en-US
 
 search: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: home
+
 # Navigation
 navigation:
   - title: Home
