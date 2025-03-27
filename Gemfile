@@ -6,7 +6,7 @@ gem "github-pages", group: :jekyll_plugins
 # Explicitly add theme gems
 gem "jekyll-theme-basically-basic"
 gem "minimal-mistakes-jekyll"
-gem "jekyll", "~> 4.0"
+gem "jekyll"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
